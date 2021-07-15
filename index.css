@@ -1,0 +1,121 @@
+body{
+ background-color: rgb(43, 43, 43);
+}
+.clock{
+    text-align: center;
+    height: 400px;
+    margin-top : 250px;
+}
+
+.variables{
+    margin:10px;
+    height: 300px;
+    width : 300px;
+    display: inline-block;
+    background-color: rgb(19, 20, 20);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 5px rgba(214, 214, 214, 0.2);
+    
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 150px;
+    color: white;
+    margin-top:50px;
+}
+.colon{
+    height: 400px;
+    font-size: 200px;
+    color: white;
+    position: relative;
+    bottom: 17px;
+}
+
+@keyframes example {
+    
+  0%  {background-color: rgb(113, 169, 224);
+    position: relative;
+    opacity:70%;
+    height: 100px;
+}
+
+  
+}
+  
+
+  .sec{
+      height: 300px;
+      width: 300px;
+      background-color: tomato;
+      position: relative;
+      bottom: 422px;
+      animation-name: example;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      background-color: transparent; 
+      /* left: 514px; */
+      border-radius: 6px; 
+  }
+
+
+  @media only screen and (max-width: 768px)  {
+    body{
+        background-color: rgb(43, 43, 43);
+       }
+       .clock{
+           text-align: center;
+           height: 200px;
+           margin-top : 250px;
+       }
+       
+       .variables{
+           height: 200px;
+           width : 200px;
+           display: inline-block;
+           background-color: rgb(19, 20, 20);
+           text-align: center;
+           border-radius: 6px;
+           box-shadow: 0px 0px 3px 5px rgba(214, 214, 214, 0.2);
+           
+       }
+       p{
+           font-family: 'Oswald', sans-serif;
+           font-size: 111px;
+           color: white;
+           margin-top:10px;
+       }
+       .colon{
+           height: 200px;
+           font-size: 111px;
+           color: white;
+           position: relative;
+           bottom: 17px;
+       }
+       
+       @keyframes example {
+           
+         0%  {background-color: rgb(113, 169, 224);
+           position: relative;
+           opacity:70%;
+           height: 100px;
+       }
+       
+         
+       }
+         
+       
+         .sec{
+             height: 200px;
+             width: 200px;
+             background-color: tomato;
+             position: relative;
+             bottom: 285px;
+             animation-name: example;
+             animation-duration: 1s;
+             animation-iteration-count: infinite;
+             background-color: transparent; 
+             /* left: 514px; */
+             border-radius: 6px; 
+         }
+}
